@@ -5,27 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body class="page">
+  <h1 class="page__header">We're launching soon</h1>
+  <div class="page__main">
+    <div class="page__numbers">
+      <div class="page__number">
+        <div class="page__btn">
+          <p class="page__value" id="days">0</p>
+        </div>
+        <div class="page__description">Days</div>
+      </div>
+      <div class="page__number">
+        <div class="page__btn">
+          <p class="page__value" id="hours">0</p>
+        </div>
+        <div class="page__description">Hours</div>
+      </div>
+      <div class="page__number">
+        <div class="page__btn">
+          <p class="page__value" id="minutes">0</p>
+        </div>
+        <div class="page__description">Minutes</div>
+      </div>
+      <div class="page__number">
+        <div class="page__btn">
+          <p class="page__value" id="seconds">0</p>
+        </div>
+        <div class="page__description">Seconds</div>
+      </div>
+    </div>
+  </div>
+  <div class="page__footer">
+    <img src="images/icon-facebook.svg" alt="facebook" class="page__image">
+    <img src="images/icon-pinterest.svg" alt="pinterest" class="page__image">
+    <img src="images/icon-instagram.svg" alt="instagram" class="page__image">
   </div>
 </body>
 </html>
